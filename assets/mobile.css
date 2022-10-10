@@ -1,0 +1,77 @@
+@media only screen and (max-width: 375px) {
+    #TopDiv{
+        margin: 0 auto;
+        padding: 30px;
+        width: 80%;
+        margin-top: 90px;
+    }
+ }
+
+ @media only screen and (max-width: 375px) {
+    #MidDiv{
+        margin: 0 auto;
+        padding: 30px;
+        width: 80%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+ }
+
+ @media only screen and (max-width: 375px) {
+    #MidDiv #total{
+        margin-top: 40px;
+        Font-size: 15px;
+        font-weight: 400;
+    }
+ }
+
+ @media only screen and (max-width: 375px) {
+    #MidDiv #number1 {
+        margin-top: -10px;
+        font-size: 25px;
+    }
+ }
+
+ @media only screen and (max-width: 375px) {
+    #MidDiv #number2 {
+        margin-top: 40px;
+        margin-left: 90px;
+        font-size: 25px;
+    }
+ }
+
+ @media only screen and (max-width: 375px) {
+    #MidDiv #percentage {
+        margin-top: -20px;
+        margin-left: 45px;
+        Font-size: 15px;
+        font-weight: 400;
+    }
+ }
+
+ @media only screen and (max-width: 375px) {
+    #left {
+        display: inline-block;
+        width:120px;
+        height:120px;
+    }
+ }
+
+ @media only screen and (max-width: 375px) { 
+    #right{
+        float: right;
+        width:160px;
+        height:160px;
+    }
+ }
+
+ @media only screen and (max-width: 375px) { 
+    #canvas-container{
+      width: 100%;
+      height: 100%;
+    }
+ }
+
+
+ 
+

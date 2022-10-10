@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'DM Sans-Bold';
+    src: url(/Fonts/DMSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'DM Sans-Medium';
+    src: url(/Fonts/DMSans-Medium.ttf);
+}
+
+body {
+    background-color: hsl(27, 66%, 92%);
+    Font-size: 18px;
+    font-family: 'DM Sans-Medium';
+    font-weight: 700;
+}
+
+
+#TopDiv{
+    margin: 0 auto;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 15px;
+    padding: 30px;
+    width: 35%;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+#TopDiv h2 {
+    Font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+#TopDiv h3 {
+    color: white;
+}
+
+#TopDiv img {
+    float: right;
+    margin-top: -70px;
+}
+
+#MidDiv {
+    margin: 0 auto;
+    background-color:  hsl(33, 100%, 98%);
+    border-radius: 15px;
+    padding: 30px;
+    width: 35%;
+    color: hsl(25, 47%, 15%);
+}
+
+#MidDiv h3 {
+    Font-size: 25px;
+    font-weight: 700;
+}
+
+#MidDiv #total {
+    margin-top: 40px;
+    Font-size: 18px;
+    font-weight: 400;
+}
+
+#MidDiv #number1 {
+    margin-top: -10px;
+    font-size: 30px;
+}
+
+#MidDiv #percentage {
+    margin-top: -10px;
+    Font-size: 18px;
+    font-weight: 400;
+}
+
+#MidDiv #number2 {
+    margin-top: 55px;
+    font-size: 20px;
+}
+
+#left {
+    display: inline-block;
+    width:140px;
+    height:120px;
+}
+
+#right{
+    float: right;
+    width:160px;
+    height:160px;
+}
+
+.attribution {
+    font-weight: 400;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(186, 34%, 60%);
+    text-decoration: none; 
+}

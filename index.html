@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/mobile.css">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+
+  <div id="TopDiv">
+    <h2>My balance</h2>
+    <h3 id="myId"></h3>
+    <h3 id="myBalance">$921.48</h2>
+    <img src="/images/logo.svg" alt="">
+  </div>
+
+  <div id="MidDiv">
+    <div id="canvas-container">
+    <h3>Spendind - Last 7 days</h3>
+  <canvas id="myChart"></canvas>
+    </div>
+  <div id="left">
+  <h3 id="total">Total this month</h3>
+  <h3  id="number1">$478.33</h3>
+</div>
+
+  <div id="right">
+  <h3 id="number2">+2.4%</h3>
+  <h3 id="percentage">from last month</h3>
+</div>
+</div>
+
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Deimar Pärn</a>.
+</div>
+  <script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+<script src="/assets/main.js"></script>
+</body>
+</html>
